@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F59BD7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/prettyHealdine"
+        android:layout_width="89dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginRight="264dp"
+        android:gravity="center"
+        android:text="pretty name : "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userName"
+
+        android:layout_width="158dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/preetyName"
+        android:layout_width="157dp"
+
+        android:layout_height="56dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/MyImage"
+        android:layout_width="160dp"
+
+        android:layout_height="111dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/set_pretty_button"
+
+        android:layout_width="154dp"
+        android:layout_height="51dp"
+
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="96dp"
+
+        android:layout_marginRight="96dp"
+        android:onClick="pNameButtonHandler"
+        android:text="SET PRETTY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userHealdine"
+        android:layout_width="88dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginRight="264dp"
+        android:gravity="center"
+        android:text="user name : "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome_msg"
+        android:layout_width="262dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:text="WELCOME!!"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

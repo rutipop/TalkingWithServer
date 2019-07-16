@@ -1,0 +1,28 @@
+=================================================================
+write at least 1 pro and 1 con for each implementation (a) & (b):
+=================================================================
+a. save the token locally (for example in a file or in SP):
+******
+1 con:
+******
+We get the token only one time and we don't change it which means our user will be more vulnerable 
+(someone may get this token and access user's information)-> not safe 
+
+
+******
+1 pro:
+******
+Saves time by not accessing the server each time we enter oncreate -> less overhead
+
+=========================================================================================
+b. use this token only in this current app-launch, and re-request a token from the server each time the app launches again.
+
+******
+1 con:
+******
+A lot of server requests that takes time and effort -> more overhead
+
+******
+1 pro:
+******
+We don't save the token because it is new at every launch which makes it harder for others to access this user's account->safer
